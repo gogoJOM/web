@@ -1,0 +1,116 @@
+body {
+    background: #6495ED url(images/font.png);
+    font: 20px/34px Comic Sans, cursive;
+}
+
+a {
+    text-decoration: none;
+    color: #4682B4;
+}
+
+/*structer*/
+
+div.header {
+    height: 60px;
+    width: 400px;
+    margin: 0 auto;
+    background: #FFFFFF url(images/font_content.png);
+    line-height: 60px;
+    border-radius: 5px;
+    text-align: center;
+    color: #4682B4;
+    font-size: 30px;
+}
+
+div.bigshift {
+    height: 40px;
+}
+
+div.bigbigshift {
+    height: 25px;
+}
+
+div.shift {
+    height: 10px;
+}
+
+div.menu {
+    height: 45px;
+    background: #FFFFFF url(images/font_content.png);
+    line-height: 45px;
+    border-radius: 5px;
+    width: 1245px;
+    min-width: 560px;
+}
+
+
+div.menu a:hover{
+    color: #87CEEB;
+    transition: all 1s;
+}
+
+div.block {
+    border-right: 1px solid #ccc;
+    width: 248px;
+    float: left;
+    text-align: center;
+}
+
+div.block2 {
+    width: 248px;
+    float: left;
+    text-align: center;
+}
+
+div.content {
+    height: 700px;
+    background: #FFFFFF url(images/font_content.png);
+    border-radius: 5px;
+    width: 1245px;
+
+}
+
+div.content ul li {
+    line-height: 130px;
+    color: #4682B4;
+    font-weight: bold;
+}
+
+div.content p {
+    text-align: right;
+    color: #4682B4;
+    margin-right: 20px;
+}
+
+div.content hr {
+    width: 1150px;
+    margin: 0px;
+    color: #ccc;
+    size: 1px;
+}
+
+div.footer {
+    height: 30px;
+    background: #FFFFFF url(images/font_content.png);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    color: #4682B4;
+    line-height: 30px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+div.clear {
+    clear: both;
+}
+
+/*adapt*/
+@media screen and (max-width: 1245px) {
+
+    div.menu{width: 100%;}
+    div.block{width: 20%;}
+    div.block2{width: 19%;}
+    div.content{width: 100%;}
+    div.content hr{width: 93%;}
+}
